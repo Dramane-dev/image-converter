@@ -12,5 +12,11 @@
         <?php 
             echo "Image Converter";
         ?>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            Select image to upload:
+            <input type="hidden" name="MAX_FILE_SIZE" value="300000" />
+            <input id="fileToUpload" name="fileToUpload" type="file">
+            <input name="submit" type="submit" value="Upload Image">
+        </form>
     </body>
 </html>
