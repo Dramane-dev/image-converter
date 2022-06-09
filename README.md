@@ -17,7 +17,7 @@ Simple module to upload an image and convert it in webp.
 To start the project :
 
 ```bash
-git clonne https://github.com/Dramane-dev/image-converter
+git clone https://github.com/Dramane-dev/image-converter
 cp image-converter /Applications/MAMP/htdocs/image-converter
 start your MAMP or XAMP server and go in http://localhost:{YOUR_PORT}/image-converter/index.html
 ```
