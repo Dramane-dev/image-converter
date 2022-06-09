@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif; */
+    font-family: 'Roboto Mono bold', monospace;
+    background-color: #FFDBE0;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5% 0 2% 0;
+}
+
+.title-container > h1 {
+    font-size: 50px;
+    color: #4b0f31;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: #ffffff;
+}
+
+.form-container > label {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5% 0 5% 0;
+}
+
+.select {
+    width: 50%;
+    padding: 1%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Roboto Mono bold', monospace;
+}
+
+.fileToUpload {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.upload-file-input {
+    width: 45%;
+    padding: 3%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000000;
+    align-self: center;
+    text-align: center;
+    font-size: 18px;
+    background-color: #FCE7BA;
+    color: #000000;
+    transition: all 1s ease-out;
+}
+
+.upload-file-input:hover {
+    transition: all 1s ease-out;
+    background-color: #ffffff;
+}
+
+.submit-button {
+    width: 50%;
+    padding: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-family: 'Roboto Mono bold', monospace;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 1s ease-out;
+    background-color: #B3D9B2;
+}
+
+.submit-button:hover {
+    transition: all 1s ease-out;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+}
