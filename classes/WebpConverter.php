@@ -63,7 +63,7 @@
 
             imagewebp($image, $destination, $quality);
 
-            if (removeOld) {
+            if ($removeOld) {
                 unlink($source);
             }
             return $destination;
